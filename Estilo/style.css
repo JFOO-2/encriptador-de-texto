@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Estilos generales */
+body {
+    background-image: url(https://img.freepik.com/free-photo/wavy-black-white-background_23-2150530911.jpg?t=st=1722300290~exp=1722303890~hmac=07e48391d528ab80bd79d3e9d33271dfbba8bfc86c90c62696e3b6a6b0e8614f&w=1060);
+    box-sizing: border-box;
+    color: #040404;
+    background-size: cover;
+}
+
+.header{
+    background-color: #040404;
+    color: #ffffff;
+}
+
+.hader2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    font-size: 2rem;
+
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
+/* Sección principal */
+.contenido {
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.seccion-principal {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-principal {
+    font-size: 2.2rem;
+    color: #21209C;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.input-texto {
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: lowercase;
+    resize: none;
+    color: #CF0A0A;
+    border-radius: 1rem;
+    background-color: inherit;
+    border: 3px #000000 solid;
+    font-size: 1.5rem;
+    border-style: double;
+    background-color: #ffffff1b;
+    
+}
+
+::placeholder {
+    color: #CF0A0A;
+    font-size: 1.5rem;
+    line-height: 5.5rem;
+    text-align: center;
+    
+}
+
+.input-texto:focus {
+    outline: none;
+}
+/* Sección principal dos */
+.seccion-principal-dos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-texto-dos {
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: lowercase;
+    resize: none;
+    color: #CF0A0A;
+    border-radius: 1rem;
+    border: 3px solid #000000;
+    border-style: double;
+    
+    background-color: inherit;
+    background-image: url("/Encriptador-challengs/IMGS/Muñeco.png");
+    background-repeat: no-repeat;
+    
+    border-radius: 24px;
+    background-size: contain;
+    font-size: 1.5rem;
+    background-color: #ffffff1b; 
+    
+}
+
+.input-texto-dos:focus{
+    outline: none;
+}
+
+.titulo-principal-dos {
+    font-size: 2.2rem;
+    color: #21209C;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* Botón */
+.boton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2.8rem;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2rem;
+
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1rem;
+    font-style: oblique;
+    
+}
+
+.boton:hover{
+    background-color: #0A3871;
+}
+
+.boton-espacio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.footer{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5rem 0rem;
+     
+}
+
+.footer-texto{
+    gap: 30px;
+    font-size: 1rem;
+
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+  
+}
+
+.span{
+    color: #090069;
+    font-size: 1.2rem ;
+    font-style: italic;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./Estilo/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hader2">
+        <img src="./IMGS/Logo2.png">
+        <h1>Encriptador de texto</h1>
+        </div>
+
+    </header>
+    <main class="contenido">
+        
+        <section class="seccion-principal">
+            <h2 class="titulo-principal">
+                Encriptador de texto
+            </h2>
+                <textarea class="input-texto" id="textoEntrada"  type="text" placeholder="Ingrese su texto aqui" cols="30" rows="0"></textarea>
+                <p class="span">¡Solo se aceptan letras minusculas</p>
+                <div class="boton-espacio">
+                   <button onclick="encriptar()" class="boton">
+                     Encriptar
+                    </button>
+                     <button onclick="desencriptar()" class="boton">
+                     Desencriptar
+                     </button>
+                </div>
+        </section>
+
+        <section class="seccion-principal-dos">
+            <h2 class="titulo-principal-dos">Vista de texto</h2>
+            <textarea class="input-texto-dos" id="textoSalida"  type="text"></textarea>
+            <p class="span">¡Solo se aceptan letras minusculas</p>
+            <button class="boton" onclick="copiarTexto()"  id="copiar">Copiar</button>
+            
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer-texto">© Encriptador de texto--Creado por JS--</p>
+    </footer>
+    
+    <script src="./JS-funcion/funcion.js"></script>
+</body>
+</html>
